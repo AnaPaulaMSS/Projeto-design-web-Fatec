@@ -1,0 +1,35 @@
+CARDÁPIO
+
+<p>Nos itens ao lado, você poderá navegar e ver o cardápio com o que há de melhor no Bistrô Paris</p>
+<p>Nosso menu é composto por pratos típicos, preparados com ingredientes da melhor qualidade e respeitando 
+as receitas tradicionais e familiares, além do toque de alta gastronomia</p>
+
+DRINKS
+
+<p>Bailey’s ............................................................... R$ 38,00</p>
+<p>Chartreuse verte ............................................................... R$ 75,00</p>
+<p>Grand Marnier ............................................................... R$ 45,00</p>
+<p>Lemoncello ............................................................... R$ 45,00</p>
+<p>Licor 43 ............................................................... R$ 45,00</p>
+<p>Bénédictine ............................................................... R$ 45,00</p>
+<p>Sambuca ............................................................... R$ 49,00</p>
+
+PRATOS
+
+<p>Steak Tartare, Batata Frita, Salada ............................................................... R$ 84,00</p>
+<p>Tournedos au Poivre « au sautoir » ................................................................. R$ 105,00</p>
+<p>Stinco de Vitela, Linguine e Salvia.................................................................. R$ 97,00</p>
+<p>Brandade de Bacalhau, Ovo Mollet e Mini Legumes..................................... R$ 89,00</p>
+<p>Polvo Grelhado na Páprica defumada e Legumes Provençais......................... R$ 135,00</p>
+<p>A Versão Vegana do Bistrot........................................................................... R$ 79,00</p>
+<p>Massa Caseira, fondue de raclette e legumes orgânicos.................................... R$ 83,00</p>
+
+SOBREMESAS
+
+<p>Café Gourmand....................................................... R$ 29,00</p>
+<p>Petit Gâteau, Sorvete de Baunilha......................... R$ 32,00</p>
+<p>Millefeuille e Caramelo Salgado.............................. R$ 32,00</p>
+<p>Crème Brûlée........................................................... R$ 32,00</p>
+<p>Tarte Tatin, Sorvete de Baunilha............................ R$ 32,00</p>
+<p>Fondant de Chocolate e Sopa de Frutas Vermelhas............. R$ 32,00</p>
+<p>Frutas da Estação................................................... R$ 22,00</p>              

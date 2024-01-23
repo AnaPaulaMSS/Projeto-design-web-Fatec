@@ -1,0 +1,257 @@
+<html>
+    <head>
+        <title>Título do Site</title>
+        <meta charset="UTF-8"/>
+        <!--Import Google Icon Font-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>        
+        <style>
+            header{
+                background: url('fundo.jpg');
+                background-size:cover;
+                min-height:800px;
+            }
+            .texto{
+                text-align:justify;
+            }
+            .sobre{
+                padding-top:50px;
+            }
+            .destaque{
+                padding-top:20vh;
+            }
+            .destaque-texto{
+                font-family:'Roboto Condensed';
+                font-weight:700;
+            }
+            .destaque-complemento{
+                font-family:'Roboto Condensed';
+                font-weight:200;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav class="nav-wrapper transparent">
+                <div class="container">
+                    <a href="#" class="brand-logo">Logo do Site</a>
+                    <a href="#" class="sidenav-trigger" data-target="mobile-menu">
+                       <i class="material-icons">menu</i> 
+                    </a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Sobre</a></li>
+                        <li><a href="#">Cardápio</a></li>
+                        <li><a href="#">Contato</a></li> 
+                    </ul>
+                </div>
+            </nav>
+            <ul class="sidenav" id="mobile-menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Cardápio</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+            <div class="destaque">
+                <div class="row">
+                    <h2 class="center-align white-text"><i class="medium material-icons">local_dining</i></h2>
+                    <h2 class="center-align white-text destaque-texto">L'ESPRIT BISTROT</h2>
+                    <h5 class="center-align white-text destaque-complemento">Viva uma autêntica <br>experiência francesa!</h5>
+                </div>
+            </div>
+        </header>
+        <section class="sobre">
+            <div class="row">
+                <div class="col l6 offset-l1">
+                    <h2 class="indigo-text text-darken-4">Pratos</h2>
+                    <p class="texto">O Bistrô Paris é um dos mais tradicionais restaurantes da Grande São Paulo, especializados na cozinha francesa. 
+                        Entre as delícias servidas está o Camembert Gratinée Au Miel, carro chefe da casa, servido aos domingos e feriados.
+                        Também aos finais de semana, é servido o prato Tartare de Filet Mignon, especialidade do chefe. Dica: se sua intenção for pedir o carro-chefe da casa, 
+                        o Filet Mignon en Crôute, é preciso reservar com 24 horas de antecedência. </p>
+                </div>
+                <div class="col l4"><img src="prato.jpg" class="responsive-img"/>
+                </div>
+            </div>
+            <div class="row sobre">
+                <div class="col l4 offset-l1"><img src="ambiente.jpg" class="responsive-img"/>
+                </div>
+                <div class="col l6">
+                    <h2 class="indigo-text text-darken-4">Ambiente</h2>
+                    <p class="texto">
+                        O sobrado de dois andares é uma das referências da parte turística da cidade, e adentrar na casa é como viajar no tempo. 
+                        Um ambiente perfeito para os mais saudosistas. 
+                        Estamos esperando você para uma visita, mas enquanto isso, 
+                        deixamos algumas fotos dos ambientes do restaurante, com visualização detalhada, para você já ir se familiarizando.
+                    </p>
+                </div>
+            </div>
+            <div class="row sobre">
+                <div class="col l6 offset-l1">
+                    <h2 class="indigo-text text-darken-4">Drinks</h2>
+                    <p class="texto">Assim como o poeta Rimbaud relata as viagens marítimas do seu barco, numa trajetória onírica e encantadora, 
+                        da mesma forma é experienciar os Drinks do Bistrô Paris. Um deleite que todos os entusiastas da gastronomia deveriam provar. 
+                        A bebida carro chefe nos jantares da casa é o espumante Máscara de Ferro Brut (R$ 160), produzido em Pinto Bandeira.
+                        Um Drink refrescante que reúne a cada taça história, qualidade e técnica 
+                         </p>
+                </div>
+                <div class="col l4"><img src="drink.jpg" class="responsive-img"/></div>
+            </div>
+
+            
+
+
+        </section>
+        <div class="parallax-container">
+            <div class="parallax">
+                <img src="cardapio1.jpg" class="responsive-img"/>
+            </div>
+        </div>
+        <section class="container sobre">
+            <div class="row">
+                <div class="col l4">
+                    <h2 class="indigo-text text-darken-4">Cardápio</h2>
+                    <p class="texto">Nos itens ao lado, você poderá navegar e ver o cardápio com o que há de melhor no Bistrô Paris</p>
+                    <p class="texto">Nosso menu é composto por pratos típicos, preparados com ingredientes da melhor qualidade e respeitando 
+                    as receitas tradicionais e familiares, além do toque de alta gastronomia</p>
+                </div>
+                <div class="col l6 offset-l2">
+                    <ul class="tabs">
+                        <li class="tab col s4">
+                            <a href="#drinks" class="indigo-text text-darken-4">Drinks</a>
+                        </li>
+                        <li class="tab col s4">
+                            <a href="#pratos" class="indigo-text text-darken-4">Pratos</a>
+                        </li>
+                        <li class="tab col s4">
+                            <a href="#sobremesas" class="indigo-text text-darken-4">Sobremesas</a>
+                        </li>
+                    </ul>
+                    <div class="col s12" id="drinks">
+                        <p class="indigo-text flow-text">
+                            <p>Bailey’s ............................................................... R$ 38,00</p>
+                            <p>Chartreuse verte ............................................................... R$ 75,00</p>
+                            <p>Grand Marnier ............................................................... R$ 45,00</p>
+                            <p>Lemoncello ............................................................... R$ 45,00</p>
+                            <p>Licor 43 ............................................................... R$ 45,00</p>
+                            <p>Bénédictine ............................................................... R$ 45,00</p>
+                            <p>Sambuca ............................................................... R$ 49,00</p>
+                        </p>
+                    </div>
+                    <div class="col s12" id="pratos">
+                        <p class="indigo-text flow-text">
+                            <p>Steak Tartare, Batata Frita, Salada ........................................... R$ 84,00</p>
+                            <p>Tournedos au Poivre « au sautoir » ........................................... R$ 105,00</p>
+                            <p>Stinco de Vitela, Linguine e Salvia........................................... R$ 97,00</p>
+                            <p>Brandade de Bacalhau, Ovo Mollet e Mini Legumes.................. R$ 89,00</p>
+                            <p>Polvo Grelhado na Páprica defumada e Legumes Provençais...... R$ 135,00</p>
+                            <p>A Versão Vegana do Bistrot.............................................. R$ 79,00</p>
+                            <p>Massa Caseira, fondue de raclette e legumes orgânicos.............. R$ 83,00</p>
+                        </p>
+                    </div>
+                    <div class="col s12" id="sobremesas">
+                        <p class="indigo-text flow-text">
+                            <p>Café Gourmand....................................................... R$ 29,00</p>
+                            <p>Petit Gâteau, Sorvete de Baunilha......................... R$ 32,00</p>
+                            <p>Millefeuille e Caramelo Salgado.............................. R$ 32,00</p>
+                            <p>Crème Brûlée........................................................... R$ 32,00</p>
+                            <p>Tarte Tatin, Sorvete de Baunilha............................ R$ 32,00</p>
+                            <p>Fondant de Chocolate e Sopa de Frutas Vermelhas............. R$ 32,00</p>
+                            <p>Frutas da Estação................................................... R$ 22,00</p>            
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="parallax-container">
+            <div class="parallax">
+                <img src="cardapio2.jpg" class="responsive-img"/>
+            </div>
+        </div>
+        <section class="container sobre">
+            
+            <div class="row">
+                <div class="col l5">
+                    <h2 class="indigo-text text-darken-4">Fale Conosco</h2>
+                    <p class="texto">O Bistrô Paris busca atender a todos os seus clientes e não clientes com rapidez e objetividade, para que a experiência com nossos serviços seja a mais prazerosa possível.</p>
+                </div>
+                <div class="col l5 offset-l2">
+                    <form>
+                        <div class="input-field">
+                            <input type="email" id="email"/>
+                            <label for="email">Seu E-mail</label>
+                        </div>
+                        <div class="input-field">
+                            <textarea id="mensagem" class="materialize-textarea"></textarea>
+                            <label for="mensagem">Sua Mensagem</label>
+                        </div>
+                        <div class="input-field">
+                            <p>Motivo do Contato</p>
+                            <p>
+                                <label>
+                                    <input type="radio" name="group1" value="Duvidas"/>
+                                    <span>Dúvidas, Sugestões ou Reclamações</span>
+                                </label>
+                            </p>
+                            <p>
+                                <label>
+                                    <input type="radio" name="group1" value="Reservas
+                                    "/>
+                                    <span>Reservas de Mesas</span>
+                                </label>
+                            </p>
+                        </div>
+                        <div class="input-field center">
+                            <button class="btn indigo text-darken-4">
+                                <i class="material-icons right">send</i>
+                                Enviar
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <footer class="page-footer grey darken-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col l6 s12">
+                        <h5>Sobre Nós</h5>
+                        <p class="texto">O Restaurante Bistrô Paris encontra-se localizado na Avenida Tenente Marques 1590, Fazendinha, Stna. de Parnaíba.</p>
+                        <p class="texto">Reserve sua mesa e venha provar o verdadeiro sabor da alta gastronomia francesa, acompanhado dos melhores drinks.</p>
+                    </div>
+                    <div class="col l4 s12 offset-l2">
+                        <h5>Nossas Redes</h5>
+                        <ul>
+                            <li><a class="grey-text" href="#">Facebook</a></li>
+                            <li><a class="grey-text" href="#">Twitter</a></li>
+                            <li><a class="grey-text" href="#">Instagram</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright grey darken-4">
+                <div class="container center-align">
+                    &copy; 2023 Oficina Web FATEC
+                </div>
+            </div>
+        </footer>
+
+
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+        integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8="
+        crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $('.sidenav').sidenav();
+                $('.parallax').parallax();
+                $('.tabs').tabs();
+              });
+        </script>
+
+    </body>
+</html>

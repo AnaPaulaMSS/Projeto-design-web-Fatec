@@ -1,0 +1,9 @@
+L'ESPRIT BISTROT
+
+Viva uma autêntica <br>experiência francesa!
+
+<h5>Sobre Nós</h5>
+<p>O Restaurante Bistrô Paris encontra-se localizado na Avenida Tenente Marques 1590, Fazendinha, Stna. de Parnaíba.</p>
+<p>Reserve sua mesa e venha provar o verdadeiro sabor da alta gastronomia francesa, acompanhado dos melhores drinks.</p>
+
+&copy; 2023 Oficina Web FATEC
